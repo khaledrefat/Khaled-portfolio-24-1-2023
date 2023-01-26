@@ -27,8 +27,11 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- dowenload pdf -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Template Stylesheet -->
+<!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -81,18 +84,23 @@
                     <h3 class="text-primary mb-3">I'm</h3>
                     <h1 class="display-3 mb-3">KHaled Refat</h1>
                     <h2 class="typed-text-output d-inline"></h2>
-                    <div class="typed-text d-none">  Freelancer Web Developer, Freelancer Front End Developer, Bachelors Of Engineer Mansoura University, Im A Self-Taught Web Developer With Hands On Experience Of Building Websites   </div>
-                    <div class="d-flex align-items-center pt-5">
-                        <a href="https://drive.google.com/file/d/1HsaqONy4Dhfz3ShQR0x6cLwIUTT4uBz0/view?usp=drivesdk" class="btn btn-primary py-3 px-4 me-5"> View My CV</a>
-                        <button type="button" class="btn-play" data-bs-toggle="modal"
-                            data-src="" data-bs-target="#videoModal">
+                    <div class="typed-text d-none">  Web Developer, Front End Developer, Bachelors Of Engineer Mansoura University, Im A Self-Taught Web Developer With Hands On Experience Of Building Websites   </div>
+                    
+                    <div class="d-flex align-items-center pt-5  flex-row ">
+                        <a href="cv/CV---(khaled) .pdf" class="btn btn-primary py-3 px-4 me-5" download="file" ><i class="fa fa-download" ></i> Download CV</a>
+                        <a href="cv/resume---(KHaled).pdf" class="btn btn-primary py-3 px-4 me-5" download="file" ><i class="fa fa-download" ></i> Download Resume</a>
+
+                        <!-- <a href="cv/resume---(KHaled).pdf"  class="btn btn-primary py-1 px-2 me-5 ms-4 mb-0 d-none d-sm-block" download="file" ><i class="fa fa-download" ></i> Download resume</a> -->
+                        
+                        <button type="button" class="btn-play" data-bs-toggle="modal" data-src="" data-bs-target="#">
                             <span></span>
                         </button>
+
                         <h5 class="ms-4 mb-0 d-none d-sm-block">Play Video</h5>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img class=" kkk" id="kkk" src="img/myphotofamily1 (2).jpg" alt="" >
+                    <img class=" kkk" id="kkk" src="img/myphotofamily1 (2).jpg" alt=""  width="350px">
                 </div>
             </div>
         </div>
@@ -604,7 +612,14 @@
                         <a class="btn btn-square btn-primary me-2" href="https://www.facebook.com/engkhaledrefat/"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-square btn-primary me-2" href="https://www.linkedin.com/in/khaledrefat/"><i class="fab fa-linkedin-in"></i></a>
                     </div>
+                    <p class="mb-2 asa">Send Message</p>
+                    <div class="d-flex pt-2">
+
+                          <button onclick="sendWhatsApp()" class="btn btn-square btn-primary me-2 fa-brands fa-whatsapp" target="_blank"></button>
+                          
+                    </div>
                 </div>
+               
                 <!-- <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s"> -->
                     <div class="col-lg-7 col-md-6 wow ">
                     <div >
@@ -634,7 +649,9 @@
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button  onclick="sendMail()" class="btn btn-dark w-100">Send Your message</button>   
+                                <button  onclick="sendMail()" class="btn btn-dark mail w-100">Send Your message</button> 
+                                <a href="mailto:khaledrefat89@gmail.com" target="_blank" class="btn btn-square mail btn-primary btn btn-dark w-100 me-2 fa-regular fa-envelope-open" >Send  External Mail</a>
+
                             </div>
                             </div>
                         </div>
@@ -674,10 +691,7 @@
                         &copy; <a class="border-bottom text-secondary" href="#">KHALED REFAT MOHAMED ALI SALEH</a>, All Right Reserved.
                     </div>
 
-                    <!-- <div class="col-md-6 text-center ">
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        <!-- Designed By <a class="border-bottom text-secondary" href="https://www.facebook.com/engkhaledrefat/">KHaled Refat</a>
-                    </div> --> 
+                
                     
                 </div>
             </div>
