@@ -12,7 +12,6 @@
     padding-top: 80PX;
 }
 .kkk{
-    width: 450PX;
     padding-top: 80PX;
 
 border-top-left-radius : 70%;
@@ -20,6 +19,28 @@ border-top-right-radius: 70%;
 border-bottom-left-radius: 90%;
 border-bottom-right-radius: 90%;
 
+}
+
+/* @media screen and (max-width:575 px) {
+    body {
+      background-color: lightgreen;
+    }
+  } */
+  
+
+
+.mail{
+    margin-top: 20px;
+    padding: 3px;
+    letter-spacing: 5px;
+}
+.fa-brands {
+    /* width: 80px;
+    height: 80px; */
+    font-size: 20px;
+}
+.asa{
+    margin-top: 20px;
 }
 .back-to-top {
     position: fixed;
