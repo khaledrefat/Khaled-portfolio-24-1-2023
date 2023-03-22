@@ -1,25 +1,70 @@
 /********** Template CSS **********/
-:root {
+/* :root {
     --primary: #6244C5;
     --secondary: #FFC448;
     --light: #FAFAFB;
     --dark: #12141D;
+} */
+/* *{
+    background-color: #FAFAFB;
+    color:#000000;
+    z-index: -22222;
 }
+.light-mode{
+    background-color: #12141D;
+    color:#FAFAFB;
+    z-index: -2222;
 
+} */
+
+
+
+/*load*/
+
+
+
+
+
+
+
+
+  /*.............................*/
 .img-fluid{
     width: 450PX;
     border-radius: 50%;
     padding-top: 80PX;
 }
 .kkk{
-    width: 450PX;
     padding-top: 80PX;
+    padding-left:10px ;
 
 border-top-left-radius : 70%;
 border-top-right-radius: 70%;
 border-bottom-left-radius: 90%;
 border-bottom-right-radius: 90%;
 
+}
+
+/* @media screen and (max-width:575 px) {
+    body {
+      background-color: lightgreen;
+    }
+  } */
+  
+
+
+.mail{
+    margin-top: 20px;
+    padding: 3px;
+    letter-spacing: 5px;
+}
+.fa-brands {
+    /* width: 80px;
+    height: 80px; */
+    font-size: 20px;
+}
+.asa{
+    margin-top: 20px;
 }
 .back-to-top {
     position: fixed;
@@ -45,7 +90,7 @@ border-bottom-right-radius: 90%;
     opacity: 0;
     visibility: hidden;
     transition: opacity .5s ease-out, visibility 0s linear .5s;
-    z-index: 99999;
+    z-index: 999999;
 }
 
 #spinner.show {
@@ -447,3 +492,4 @@ border-bottom-right-radius: 90%;
 #contact{
     margin-top: 300px;
 }
+
